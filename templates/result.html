@@ -1,0 +1,52 @@
+<html>
+<head><title></title>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/bootstrap.css') }}"></head>
+<body>
+
+  <h1>Your result is:</h1>
+  <table border="1" class="table">
+    <tr>
+      <td>
+        roll no
+      </td>
+      <td>
+        {{m[0]}}
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Mark1
+      </td>
+      <td>
+        {{m[1]}}
+      </td>
+    </tr>
+    <tr>
+      <td>
+        mark2
+      </td>
+      <td>
+        {{m[2]}}
+      </td>
+    </tr>
+    <tr>
+      <td>
+        mark3
+      </td>
+      <td>
+        {{m[3]}}
+      </td>
+    </tr>
+    <tr>
+      <td>
+        mark4
+      </td>
+      <td>
+        {{m[4]}}
+      </td>
+    </tr>
+  </table>
+
+
+</body>
+</html>
